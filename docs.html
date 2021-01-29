@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/utilities.css">  <!-- Have first -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <title>Lokuri | Documents</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <!-- added utility class if flex to allow alignment of elements -->
+    <div class="container flex">  
+      <h1 class="logo">Lokuri.</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Current page">Home</a></li>
+          <li><a href="features.html" title="To Features page">Features</a></li>
+          <li><a href="docs.html" title="To Documents page">Docs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Head -->
+  <section class="docs-head bg-primary py-3">
+    <div class="container grid">
+      <div>
+        <h1 class="xl">Documents</h1>
+        <p class="lead">
+          Learn how to work with the Loruki platform
+        </p>
+      </div>
+      <img src="./images/docs.png" alt="Server">
+    </div>
+  </section>
+
+  <!-- Docs Main -->
+  <section class="docs-main my-4">
+    <div class="container grid">
+      <div class="card bg-light p-3 bs-b3">
+        <nav>
+          <h3 class="my-3">Essentials</h3>
+          <ul>
+            <li class="doc-main-nav-list-item"><a href="#" class="text-primary">Introduction</a></li>
+            <li class="=doc-main-nav-list-item"><a href="#">About Loruki</a></li>
+            <li class="doc-main-nav-list-item"><a href="#">Installation</a></li>
+          </ul> 
+        </nav>
+        <nav>
+          <h3 class="my-3">Deployment</h3>
+          <ul>
+            <li><a href="#">Setting up a container</a></li>
+            <li><a href="#">Using the CLI</a></li>
+            <li><a href="#">Managing resources</a></li>
+            <li><a href="#">Upgrades & downgrades</a></li>
+          </ul> 
+        </nav>
+      </div>
+      <div class="card bs-all1-3">
+        <h2>Introduction</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maiores sit ipsam accusamus magnam! Perspiciatis saepe et alias, at recusandae, unde explicabo quos fuga enim dolor inventore nemo molestias sint.
+        </p>
+        <div class="alert alert-success">
+          <i class="fas fa-info"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, quaerat?
+        </div>
+
+        <h3>Lorem ipsum dolor</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui cum accusantium quos doloremque distinctio eos libero fuga, odit saepe odio.
+        </p>
+        <a href="#" class="btn btn-primary">Install CLI</a>
+
+        <h3 class="my-2">Requirements</h3>
+        <ul>
+          <li>Windows 10, Mac OSX, Linux</li>
+          <li>Node.js ver 12 or higher</li>
+        </ul>
+
+        <h3 class="my-2">Install</h3>
+        <p>Mac (Homebrew)</p>
+        <pre><code>$ brew install loruki-cli</code></pre>
+        <p>NPM</p>
+        <pre><code>$ npm install loruki-cli</code></pre>
+        <p>Yarn (Homebrew)</p>
+        <pre><code>$ yarn install loruki-cli</code></pre>
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark py-5">
+    <div class="container grid grid-3">
+      <div>
+        <h1>Loruki</h1>
+        <p>Copyright &copy; 2021</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html"></a>Home</li>
+          <li><a href="./features.html"></a>Features</li>
+          <li><a href="./docs.html"></a>Docs</li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="https:\\github.com" class="social-icon" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https:\\facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https:\\instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https:\\twitter.com" class="social-icon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
